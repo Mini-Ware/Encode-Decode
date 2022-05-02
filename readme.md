@@ -1,3 +1,7 @@
+## Install
+```bash
+npm i @mini-ware/encode-decode
+```
 ## Encode
 ```js
 const encode = require("@mini-ware/encode-decode").encode();
@@ -25,3 +29,4 @@ console.log(decode("b64", "c2FtcGxl"));
 //hexadecimal
 console.log(decode("hex", "73616D706C65"));
 ```
+## This was made a few months ago, releasing the code on GitHub now
